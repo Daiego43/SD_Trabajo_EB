@@ -1,0 +1,19 @@
+datos_1000X.txt
+Tiempo con 1 proceso en funcion de N hilos
+
+1,123.78594803099986
+2,63.35208489200022
+3,45.57019119100005
+4,35.55413338700009
+
+Tiempo con 1 hilo en funcion de N procesos
+
+1,123.78594803099986
+2,65.05298386899995
+3,46.78402788400035
+4,39.17807833300003
+
+
+Maxima distribucion en mi PC 4 procesos, 4 hilos
+35.86707739800022
+Este es el tiempo barrera de mi ordenador
