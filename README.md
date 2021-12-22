@@ -10,11 +10,21 @@ según qué tarea. En esta actividad evaluable, se solicita utilizar el Error Po
 Para poder ejecutar el proyecto asegurese de que el/los equipos donde vaya a ejecutar el código tienen instalados los siguientes requisitos:
 
 - Versión del interprete Python: 3.6 o superior
+- Comando pip para instalar paquetes
 - Tener habilitado la omp como capa de paralelismo
 
 Dependencias de del proyecto (paquetes de python utilizados):
 
-- mpi4py
-- numba
+- #### mpi4py
+  Si ya tiene instalado en el/los equipos el compilador de MPI (mpicc) entonces puede ejecutar el siguiente:
+  
+  ```python -m pip install mpi4py```
+  
+- #### numba
+  `pip install numba`
 
+## Ejecución
+El siguiente comando sirve para ejecutar el proyecto
+
+`mpiexec -np <numero de procesos> --machinefile <machinefile> python V3_TrabajoEB.py <numhilos> <archivo>`
 
